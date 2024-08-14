@@ -4,39 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Compliments</title>
-    <style>
+   <style>
         body {
             font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f0f8ff;
+            background-color: #f0f0f0;
+            margin: 0;
         }
-        #compliment-box {
+
+        .container {
             text-align: center;
-            border: 2px solid #4CAF50;
+            background: #ffffff;
             padding: 20px;
-            border-radius: 10px;
-            background-color: #ffffff;
+            border-radius: 20px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
-        #compliment {
-            font-size: 24px;
-            margin-bottom: 20px;
-            color: #333;
+
+        h1 {
+            color: #333333;
         }
-        #compliment-button {
+
+        button {
+            background-color: #007BFF;
+            color: white;
             padding: 10px 20px;
-            font-size: 16px;
-            color: #ffffff;
-            background-color: #4CAF50;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
         }
-        #compliment-button:hover {
-            background-color: #45a049;
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #complimentText {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #555555;
         }
     </style>
 </head>
